@@ -11,7 +11,7 @@ body {
 header {
   display: flex;
   margin-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .bannertop {
@@ -19,6 +19,27 @@ header {
   height: 90px;
   padding-left: 40px;
   padding-top: 20px;
+}
+@media screen and (max-width: 480px) {
+  .bannertop {
+    max-width: auto;
+    padding-top: 10px;
+    padding-left: 80px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .bannertop {
+    max-width: auto;
+    padding-top: 10px;
+    padding-left: 55px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bannertop {
+    max-width: auto;
+    padding-top: 10px;
+    padding-left: 25px;
+  }
 }
 
 .iconostop {
@@ -29,12 +50,12 @@ header {
   padding-top: 20px;
   text-align: center;
   font-size: 25px;
-  padding-left: 350px;
+  padding-left: 580px;
   gap: 20px;
 }
 @media screen and (max-width: 768px) {
   .iconostop {
-    padding-left: 100px;
+    padding-left: 120px;
   }
 }
 @media screen and (max-width: 480px) {

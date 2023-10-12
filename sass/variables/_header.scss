@@ -1,14 +1,33 @@
 header{
     display: flex;
     margin-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
+//Imagen inicio
 .bannertop{
     width: auto;
     height: 90px;
     padding-left: 40px;
     padding-top: 20px;
+
+    @include mobilel{
+        max-width: auto;
+        padding-top: 10px;
+        padding-left: 80px;
+    }
+
+    @include mobilem{
+        max-width: auto;
+        padding-top: 10px;
+        padding-left: 55px;
+    }
+
+    @include mobiles{
+        max-width: auto;
+        padding-top: 10px;
+        padding-left: 25px;
+    }
 }
 
 //Iconos de información (Ubicación, llámanos y correo)
@@ -20,14 +39,14 @@ header{
     padding-top: 20px;
     text-align: center;
     font-size: 25px;
-    padding-left: 350px;
+    padding-left: 580px;
     gap: 20px;
 
     @include tablet{
-        padding-left: 100px;
+        padding-left: 120px;
     }
 
-    @include mobile{
+    @include mobilel{
         display: none;
     }
 }
