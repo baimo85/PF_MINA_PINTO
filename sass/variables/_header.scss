@@ -20,8 +20,16 @@ header{
     padding-top: 20px;
     text-align: center;
     font-size: 25px;
-    padding-left: 500px;
+    padding-left: 350px;
     gap: 20px;
+
+    @include tablet{
+        padding-left: 100px;
+    }
+
+    @include mobile{
+        display: none;
+    }
 }
 
 
