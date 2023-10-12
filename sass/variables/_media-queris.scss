@@ -1,3 +1,21 @@
+@mixin p4k{
+    @media screen and (max-width: 2560px) {
+        @content;
+    }
+}
+
+@mixin portatill{
+    @media screen and (max-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin portatil{
+    @media screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
 @mixin tablet{
     @media screen and (max-width: 768px) {
         @content;

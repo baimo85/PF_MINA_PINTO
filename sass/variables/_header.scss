@@ -42,6 +42,18 @@ header{
     padding-left: 580px;
     gap: 20px;
 
+    @include p4k{
+        padding-left: 1900px;
+    }
+
+    @include portatill{
+        padding-left: 800px;
+    }
+
+    @include portatil{
+        padding-left: 380px;
+    }
+
     @include tablet{
         padding-left: 120px;
     }
@@ -51,4 +63,7 @@ header{
     }
 }
 
+nav{
+    font-size: 20px;
+}
 

@@ -53,6 +53,21 @@ header {
   padding-left: 580px;
   gap: 20px;
 }
+@media screen and (max-width: 2560px) {
+  .iconostop {
+    padding-left: 1900px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .iconostop {
+    padding-left: 800px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .iconostop {
+    padding-left: 380px;
+  }
+}
 @media screen and (max-width: 768px) {
   .iconostop {
     padding-left: 120px;
@@ -62,6 +77,10 @@ header {
   .iconostop {
     display: none;
   }
+}
+
+nav {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
