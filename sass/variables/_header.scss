@@ -7,26 +7,26 @@ header{
 //Imagen inicio
 .bannertop{
     width: auto;
-    height: 90px;
+    height: 80px;
     padding-left: 40px;
     padding-top: 20px;
 
     @include mobilel{
         max-width: auto;
         padding-top: 10px;
-        padding-left: 80px;
+        padding-left: 90px;
     }
 
     @include mobilem{
         max-width: auto;
         padding-top: 10px;
-        padding-left: 55px;
+        padding-left: 60px;
     }
 
     @include mobiles{
         max-width: auto;
         padding-top: 10px;
-        padding-left: 25px;
+        padding-left: 42px;
     }
 }
 
