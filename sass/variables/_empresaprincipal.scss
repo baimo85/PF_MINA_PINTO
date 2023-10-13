@@ -1,0 +1,43 @@
+.pres{
+    text-align: center;
+}
+
+.a2{
+    width: 600px;
+    margin-left: 20px;
+
+    @include tablet{
+        text-align: center;
+        width: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    @include mobilel{
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.logoalmacen{
+    width: 600px;
+    height: 650px;
+    float: right;
+
+    @include portatill{
+        width: 600px;
+        height: 575px;
+        float: right;
+    
+    }
+
+    @include tablet{
+        display: none;
+    
+    }
+
+    @include mobilel{
+        display: none;
+    }
+}
