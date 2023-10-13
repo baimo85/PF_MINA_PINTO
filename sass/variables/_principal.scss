@@ -38,5 +38,69 @@
     }
 }
 
+.textoprincipal{
+
+    @include p4k{
+        display: inline-block;
+        width: auto;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 700px;
+        padding-right: 30px;
+        gap: 10px;
+    }
+
+    @include portatill{
+        display: inline-block;
+        width: auto;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 130px;
+        padding-right: 30px;
+        gap: 10px;
+    }
+
+    @include portatil{
+        display: inline-block;
+        width: auto;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 10px;
+    }
+
+    @include tablet{
+        display: inline-block;
+        width: auto;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 10px;
+    }
+
+    @include mobilel{
+        display: inline-block;
+        width: auto;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 10px;
+    }
+}
+
+
 
 
