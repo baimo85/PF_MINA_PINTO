@@ -38,6 +38,12 @@
     }
 }
 
+.textouno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .textoprincipal{
 
     @include p4k{
@@ -55,11 +61,11 @@
     @include portatill{
         display: inline-block;
         width: auto;
-        justify-content: space-evenly;
+        justify-content: center;
         text-align: center;
         font-weight: 400;
         font-size: 15px;
-        padding-left: 130px;
+        padding-left: 13px;
         padding-right: 30px;
         gap: 10px;
     }
@@ -101,6 +107,47 @@
     }
 }
 
+.textoprincipal p{
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
+    @include portatil{
+        display: inline-block;
+        width: auto;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 10px;
+    }
+
+    @include tablet{
+        display: inline-block;
+        width: auto;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 10px;
+    }
+
+    @include mobilel{
+        display: inline-block;
+        width: auto;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 10px;
+    }    
+}
 
 

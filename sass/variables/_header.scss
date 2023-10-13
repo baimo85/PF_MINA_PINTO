@@ -39,15 +39,15 @@ header{
     padding-top: 20px;
     text-align: center;
     font-size: 25px;
-    padding-left: 580px;
     gap: 20px;
 
     @include p4k{
         padding-left: 1900px;
     }
 
+
     @include portatill{
-        padding-left: 800px;
+        padding-left: 600px;
     }
 
     @include portatil{
