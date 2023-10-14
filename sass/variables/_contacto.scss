@@ -1,0 +1,29 @@
+.t100{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.prueba1{
+    width: auto;
+    margin-left: 10px;
+}
+
+button{
+    border: black 2px solid;
+    color: grey;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
+.cuadro1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
